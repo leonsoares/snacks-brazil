@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5da833c0.css",
+    "main.js": "/static/js/main.d0fe1f04.js",
+    "static/js/787.e45ad886.chunk.js": "/static/js/787.e45ad886.chunk.js",
+    "static/media/snacks-brazil-Pepperoni-Croquette.jpg": "/static/media/snacks-brazil-Pepperoni-Croquette.99c5454a186a12dd18e9.jpg",
+    "static/media/snacks-brazil-part-2.mp4": "/static/media/snacks-brazil-part-2.184f6cd0ad572e79a0f9.mp4",
+    "static/media/snack-brazil-lower-bit.mp4": "/static/media/snack-brazil-lower-bit.cfdadd528ca211c5c673.mp4",
+    "static/media/snacks-brazil-coxinha.jpg": "/static/media/snacks-brazil-coxinha.31f217312d1d762ede59.jpg",
+    "static/media/snacks-brazil-007.jpg": "/static/media/snacks-brazil-007.882fe26a406e04300248.jpg",
+    "static/media/snacks-brazil-churros.jpg": "/static/media/snacks-brazil-churros.92b05b881230c8d4a506.jpg",
+    "static/media/snacks-brazil-Cheese-Ball.jpg": "/static/media/snacks-brazil-Cheese-Ball.42df1f9347311e45f344.jpg",
+    "static/media/coxinhas-img.jpg": "/static/media/coxinhas-img.a09acd1938bb893cddce.jpg",
+    "static/media/logo.png": "/static/media/logo.004244ddc2e84cb4ec9f.png",
+    "static/media/snacks-brazil-logo-vers12-01.svg": "/static/media/snacks-brazil-logo-vers12-01.ef96f7a6ba194a55ed0f4a0b42607828.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/instagram.svg": "/static/media/instagram.116ad97e1f8e0638fcb7d5aed6800697.svg",
+    "index.html": "/index.html",
+    "static/media/facebook.svg": "/static/media/facebook.d0e6c35f87cabc4c3d016b72ba214d1f.svg",
+    "main.5da833c0.css.map": "/static/css/main.5da833c0.css.map",
+    "main.d0fe1f04.js.map": "/static/js/main.d0fe1f04.js.map",
+    "787.e45ad886.chunk.js.map": "/static/js/787.e45ad886.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5da833c0.css",
+    "static/js/main.d0fe1f04.js"
+  ]
+}
