@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5da833c0.css",
-    "main.js": "/static/js/main.d0fe1f04.js",
+    "main.js": "/static/js/main.174bf5c2.js",
     "static/js/787.e45ad886.chunk.js": "/static/js/787.e45ad886.chunk.js",
     "static/media/snacks-brazil-Pepperoni-Croquette.jpg": "/static/media/snacks-brazil-Pepperoni-Croquette.99c5454a186a12dd18e9.jpg",
     "static/media/snacks-brazil-part-2.mp4": "/static/media/snacks-brazil-part-2.184f6cd0ad572e79a0f9.mp4",
@@ -18,11 +18,11 @@
     "index.html": "/index.html",
     "static/media/facebook.svg": "/static/media/facebook.d0e6c35f87cabc4c3d016b72ba214d1f.svg",
     "main.5da833c0.css.map": "/static/css/main.5da833c0.css.map",
-    "main.d0fe1f04.js.map": "/static/js/main.d0fe1f04.js.map",
+    "main.174bf5c2.js.map": "/static/js/main.174bf5c2.js.map",
     "787.e45ad886.chunk.js.map": "/static/js/787.e45ad886.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5da833c0.css",
-    "static/js/main.d0fe1f04.js"
+    "static/js/main.174bf5c2.js"
   ]
 }
