@@ -1,0 +1,34 @@
+
+.form-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 90vw;
+    .mb-3{
+        width: 100%;
+    }
+    .display-form-message{
+        position: absolute;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+       
+        color: white;
+        bottom: 0;
+
+        .sent-msg-title{
+            display: inline-block;
+            font-size: 1.5em;
+        }
+        .sent-form-message{
+            display: inline-block;
+        }
+    }
+    .error-sent{
+        background-color: red;
+    }
+}

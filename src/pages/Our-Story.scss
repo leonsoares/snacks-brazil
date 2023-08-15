@@ -1,0 +1,119 @@
+
+
+.our-story-container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    .header-container{
+        margin-right: auto;
+        .text-big{
+            font-size: 5em;
+        }
+    
+        .title-black{
+            color: black;
+        }
+    }
+
+    .out-story-content{
+        display: flex;
+        min-height: 600px;
+        
+        .our-story-main-img{
+            max-height: 600px;
+            width: 40%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left:auto ;
+        }
+        .out-story-content-parag{
+            width: 30%;
+            margin-right: auto;
+            padding-right:0px ;
+            padding-left:30px ;
+            font-size:1.5em;
+            line-height: 30px;
+            text-align: left;
+        }
+        
+    }
+    .our-story-banner{
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        .our-story-banner-text{
+            color: white;
+            
+        }
+    }
+    
+}
+@media only screen and (max-width: 800px) {
+    .our-story-container{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        
+        align-content: center;
+        justify-content: center;
+        margin-top: 30px;
+        .header-container{
+            margin-right: auto;
+            margin-left: 20px;
+            .text-big{
+                font-size: 5em;
+            }
+        
+            .title-black{
+                color: black;
+            }
+        }
+    
+        .out-story-content{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            align-content: center;
+            min-height: 600px;
+            margin-top: 30px;
+            justify-content: center;
+            .our-story-main-img{
+                max-height: 600px;
+                width: 90%;
+                height: 400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left:auto ;
+                margin-right: auto;
+            }
+            .out-story-content-parag{
+                width: 90%;
+                
+                margin-right: auto;
+                padding-right:0px ;
+                padding-left:30px ;
+                font-size:1.5em;
+                line-height: 30px;
+                text-align: left;
+            }
+            
+        }
+        .our-story-banner{
+            width: 100%;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            .our-story-banner-text{
+                color: white;
+                
+            }
+        }
+        
+    }
+}
+

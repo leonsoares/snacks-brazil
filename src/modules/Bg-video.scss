@@ -1,0 +1,125 @@
+.featured-item-container{
+    width: 100%;
+    display: flex;
+    color: black;
+    max-height: 500px;
+    // height: 400px;
+    .video-display{
+        width: 60%;
+        height: 100%;
+    }
+}
+
+.brand-color{
+    color: #009c3b
+}
+
+.featured-text-container{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:'center';
+    width: 40%;
+    margin: 0;
+    color: black;
+}
+
+.featured-text{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2vw;
+}
+
+.menu-block{
+    height: 90px;
+    width: 100%;
+    display: inline-block;
+}
+
+.action-title{
+    display: inline-block;
+    text-align: center;
+    // margin-right: auto;
+    // margin: 0 0 10px 0;
+    font-size: 1vw;
+}
+
+
+.featured-item-action-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .featured-item-container{
+        width: 100%;
+        display: flex;
+        color: black;
+        max-height: 500px;
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        // height: 400px;
+        .video-display{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
+    .brand-color{
+        color: #009c3b
+    }
+    
+    .featured-text-container{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content:'center';
+        width: 100%;
+        margin-top: auto;
+        color: black;
+    }
+    
+    .featured-text{
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 2vw;
+        font-size: large;
+    }
+    .featured-text-complement{
+        font-size: large;
+    }
+    
+    .menu-block{
+        height: 10px;
+        width: 100%;
+        display: none;
+    }
+    
+    .action-title{
+        display: inline-block;
+        text-align: start;
+        margin-right: auto;
+        margin: 0 0 10px 0;
+        font-size: medium;
+    }
+    
+    
+    .featured-item-action-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+}

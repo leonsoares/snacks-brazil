@@ -1,0 +1,161 @@
+.content-container-c{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: auto;
+    .form-container{
+        width: 50%;
+       }
+       
+       .application-title-c{
+           width: 50%;
+           margin-top: 20px;
+           margin-right: 20px;
+           display: flex;
+           flex-direction: column;
+           
+           .contact-title{
+            display: inline-block;
+            
+            width: auto;
+           }
+           .strike-t{
+            border-bottom: 1px black solid;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+           }
+
+           .contact-info-container{
+            color:white;
+            display:flex;
+            width:100%;
+            min-height:'200px';
+            justify-content:center;
+            margin-top:20px;
+            .contact-info-sub-container{
+                display:flex;
+                flex-direction:column;
+                color:black;
+                text-align:left
+                .contact-info-social-info{
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:'flex-start';
+                    margin-right:20px
+                }
+                .contact-info-text{
+                    display:inline-block;
+                    margin:0;
+                    padding:0;
+                }
+                .contact-icon{
+                    width:30px;
+                    margin-left:10px;
+                }
+                .contact-info-contain{
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:flex-start;
+                    margin-top:20px
+
+                }
+                .contact-text{
+                    margin:0; 
+                    padding:0
+                }
+                
+                
+            }
+           }
+       }
+       
+       
+       .menu-block{
+           width: 100%;
+       }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .content-container-c{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+        .form-container{
+            width: 90%;
+            margin-top: 50px;
+           }
+           
+           .application-title-c{
+               width: 50%;
+               margin-top: 20px;
+               margin-right: 20px;
+               display: flex;
+               flex-direction: column;
+               
+               .contact-title{
+                display: inline-block;
+                
+                width: auto;
+               }
+               .strike-t{
+                border-bottom: 1px black solid;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+               }
+    
+               .contact-info-container{
+                color:white;
+                display:flex;
+                width:100%;
+                min-height:'200px';
+                justify-content:center;
+                margin-top:20px;
+                .contact-info-sub-container{
+                    display:flex;
+                    flex-direction:column;
+                    color:black;
+                    text-align:left
+                    .contact-info-social-info{
+                        display:flex;
+                        flex-direction:column;
+                        justify-content:'flex-start';
+                        margin-right:20px
+                    }
+                    .contact-info-text{
+                        display:inline-block;
+                        margin:0;
+                        padding:0;
+                    }
+                    .contact-icon{
+                        width:30px;
+                        margin-left:10px;
+                    }
+                    .contact-info-contain{
+                        display:flex;
+                        flex-direction:column;
+                        justify-content:flex-start;
+                        margin-top:20px
+    
+                    }
+                    .contact-text{
+                        margin:0; 
+                        padding:0
+                    }
+                    
+                    
+                }
+               }
+           }
+           
+           
+           .menu-block{
+               width: 100%;
+           }
+    }
+}
